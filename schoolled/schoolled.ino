@@ -6,11 +6,11 @@
 #define N_LEDS 1
  
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(N_LEDS, PIN, NEO_GRB + NEO_KHZ800);
-const char* ssid = "Godbey WiFi";
-const char* pass = "godbeywifi";
+const char* ssid = "******";
+const char* pass = "******";
 
 
-const char* host = "patrickg.net";  // server address
+const char* host = "******";  // server address
 int port = 80;
 
 WiFiClient wifi;
